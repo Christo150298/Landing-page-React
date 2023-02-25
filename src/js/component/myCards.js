@@ -2,8 +2,7 @@ import React from "react";
 
 function MyCard(){
     return (
-        <div className="container text-center">
-            <div className="row">
+        <div className="row">
                 <div className="col">
                     <div className="card" style={{width: "18rem"}}> 
                     <img className="card-img-top" src="https://placehold.it/500x325.jpg" alt="Card image cap" /> 
@@ -44,7 +43,6 @@ function MyCard(){
                     </div>
                     </div>
                 </div>
-            </div>
         </div>
     );
 }
