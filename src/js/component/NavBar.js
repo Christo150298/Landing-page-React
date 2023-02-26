@@ -1,6 +1,6 @@
 import React from "react";
 
-function MyNabvar() {
+const MyNabvar = () => {
     return (
         <nav class="navbar navbar-expand-sm navbar-dark bg-dark p-1" data-bs-theme="dark">
             <h3 className="text-secondary ms-2">Start Bootrstrap</h3>

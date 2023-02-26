@@ -1,9 +1,9 @@
 import React from "react";
 
-import MyNabvar from "./navBar";
-import MyCard from "./myCards";
-import MyJumbotron from "./jumbotron";
-import MyFooter from "./footer";
+import MyNabvar from "./NavBar";
+import MyJumbotron from "./Jumbotron";
+import MyFooter from "./Footer";
+import MyCards from "./MyCards";
 
 //create your first component
 const Home = () => {
@@ -11,7 +11,7 @@ const Home = () => {
 		<div className="container">
 			<MyNabvar />
 			<MyJumbotron />
-			<MyCard />
+			<MyCards />
 			<MyFooter />	
 		</div>
 	);
