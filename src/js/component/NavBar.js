@@ -9,18 +9,18 @@ const MyNabvar = () => {
                     <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav d-flex justify-content-end">
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Home</a>
+                        <a class="nav-link text-white text-end me-2" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">About</a>
+                        <a class="nav-link text-white text-end me-2" href="#">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Services</a>
+                        <a class="nav-link text-white text-end me-2" href="#">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Contact</a>
+                        <a class="nav-link text-white text-end me-2" href="#">Contact</a>
                     </li>
                 </ul>
             </div>
