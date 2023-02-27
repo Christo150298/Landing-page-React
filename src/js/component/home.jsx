@@ -8,12 +8,14 @@ import MyCards from "./MyCards";
 //create your first component
 const Home = () => {
 	return (
-		<div className="container">
+		<>
 			<MyNabvar />
+		<div className="container-fluid">
 			<MyJumbotron />
 			<MyCards />
-			<MyFooter />	
 		</div>
+			<MyFooter />	
+		</>
 	);
 };
 
